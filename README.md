@@ -11,13 +11,13 @@ Gerrity
 
 Here, we analyze **dose-response functions** for common enteric
 pathogens and define the linear range of the function and the equation
-of the line. We also report maximum doses can be utilized with the
+of the line. We also report the maximum doses that can be utilized with the
 linear models.
 
 For each function, we:
 
 1.  Transform the dose-response curve to log-log space (log<sub>10</sub>
-    of dose and response) .
+    of dose and probability of infection) .
 
 2.  Compute numerical derivatives using **finite differences**: the
     first derivative provides the slope at each point, and the second
@@ -38,14 +38,14 @@ dose-response function and compare slope and intercept parameters across
 different models.
 
 ``` r
-library(pracma)
-library(kableExtra)
-library(gsl)
-library(ggplot2)
-library(dplyr)
-library(tidyr)
-library(DT)
-library(Cairo)
+library(pracma) #numerical differentiation
+library(kableExtra) #nice tables
+library(gsl)#hypergeometric function
+library(ggplot2)#graphing
+library(dplyr)#data manipulation
+library(tidyr)#data manipulation
+library(DT)#data manipulation
+library(Cairo)#graphics rendering device - not required
 
 # Initialize results table
 results <- data.frame(
