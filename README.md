@@ -1,12 +1,15 @@
 Dose-Response Linear Ranges
 ================
 2026-04-29
-For full code and figures, download the .rmd file!
+
+For full code and figures, download the .rmd file! For a shorter non-specific tutorial, see the short_linear_dose-response_example.R file.
 
 # Introduction
 
 This is the supporting code for *Simplified Linear Dose-Response Models
-for Low-Dose QMRAs.* Authors: Katherine Crank, Emily Clements, Daniel
+for Low-Dose QMRAs.* 
+
+Authors: Katherine Crank, Emily Clements, Daniel
 Gerrity
 
 Here, we analyze **dose-response functions** for common enteric
