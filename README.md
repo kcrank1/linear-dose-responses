@@ -1,6 +1,7 @@
 Dose-Response Linear Ranges
 ================
 2026-04-29
+For full code and figures, download the .rmd file!
 
 # Introduction
 
