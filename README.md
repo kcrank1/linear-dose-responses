@@ -28,10 +28,10 @@ For each function, we:
 
 3.  Identify the inflection point, defined as the dose at which the
     second derivative is minimized. This point corresponds to the
-    transition where the function begins to have linear behavior.
+    transition where the function begins to be linear.
 
 4.  Fit a linear regression to the portion of the curve to the left of
-    the inflection point, capturing the linear region.
+    the inflection point.
 
 5.  Overlay the linear fit and its equation directly on the curve for
     visual reference.
@@ -1000,8 +1000,8 @@ results <- rbind(results, data.frame(
 
 crypto_info <- data.frame(
   Name = c(
-    "Exponential (EPA 2006)",
-    "Exponential (Haas et al., 1999; Barbeau et al., 2000; Zhang et al., 2012)",
+    "Exponential (EPA 2005)",
+    "Exponential (Haas et al., 1996; Barbeau et al., 2000; Zhang et al., 2012)",
     "Fractional Poisson (Messner & Berger, 2016)",
     "Beta-Poisson (Messner & Berger, 2016)",
     "Exponential with Immunity (Messner & Berger, 2016)"
@@ -1084,7 +1084,7 @@ EPA, 2006
 </tr>
 <tr>
 <td style="text-align:left;">
-Exponential (Haas et al., 1999; Barbeau et al., 2000; Zhang et al.,
+Exponential (Haas et al., 1996; Barbeau et al., 2000; Zhang et al.,
 2012)
 </td>
 <td style="text-align:left;">
@@ -1097,7 +1097,7 @@ y = 1 - exp(-1 \* r \* dose)
 r = 0.00419
 </td>
 <td style="text-align:left;">
-Haas et al., 1999; Barbeau et al., 2000; Zhang et al., 2012
+Haas et al., 1996; Barbeau et al., 2000; Zhang et al., 2012
 </td>
 </tr>
 <tr>
